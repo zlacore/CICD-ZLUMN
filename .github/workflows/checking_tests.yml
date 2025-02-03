@@ -26,5 +26,5 @@ jobs:
         run: npm run build
 
       - name: Run cypress tests
-        run: npm run cypress
+        run: npm run test
 
