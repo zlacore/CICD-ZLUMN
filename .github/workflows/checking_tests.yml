@@ -1,6 +1,8 @@
 name: Checking Tests
 
 on:
+  push: 
+    branches: [main]
   pull_request:
     branches:
       - Develop
