@@ -2,7 +2,7 @@ name: Checking Tests
 
 on:
   push: 
-    branches: [Develop]
+    branches: [main]
   pull_request:
     branches:
       - Develop
@@ -34,5 +34,5 @@ jobs:
         uses: cypress.io/github-action@v4
         with: 
           start: npm start
-          wait-on: http://localhost:3000
+          wait-on: http://localhost:3001
           browser: chrome
