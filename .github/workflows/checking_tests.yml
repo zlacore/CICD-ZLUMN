@@ -30,6 +30,4 @@ jobs:
       - name: Run cypress tests
         uses: cypress-io/github-action@v6
         with: 
-          start: npm start
-          wait-on: http://localhost:3001
-          browser: chrome
+          start: npm run test-component
